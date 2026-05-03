@@ -14,7 +14,7 @@ This project demonstrates Blue-Green deployment using Azure App Service Deployme
 4. Swap Slots
 
 ## Screenshots
-(Add screenshots here)
+
 
 ## Future Enhancement
 - Azure Traffic Manager integration
