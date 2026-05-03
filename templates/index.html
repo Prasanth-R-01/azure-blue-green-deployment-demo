@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Azure Blue Green Deployment</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="{{ environment.lower() }}">
+    <div class="container">
+        <h1>{{ environment }} Environment</h1>
+        <h2>Version {{ version }}</h2>
+        <p>Status: {{ release_status }}</p>
+        <p>Deployed: {{ deploy_time }}</p>
+    </div>
+</body>
+</html>
